@@ -1,0 +1,12 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    gap: 5px;
+    h2>span {
+        color: rgb(89, 161, 106);
+        background-color: rgba(112, 150, 141, 0.339);
+    }
+}

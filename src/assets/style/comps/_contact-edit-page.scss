@@ -1,0 +1,10 @@
+.contact-edit-page {
+    gap: 10px;
+    >form {
+        padding-top: 10px;
+        gap: 15px;
+        input[type=text] {
+            padding: 5px;
+        }
+    }
+}

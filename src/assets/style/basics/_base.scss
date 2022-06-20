@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 400px;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    height: fit-content;
+}
+
+a {
+    text-decoration: unset;
+    color: inherit;
+    &:hover {
+        color: $clr-second-2;
+    }
+    &:active {
+        color: $clr-prime-2;
+    }
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid $clr-primary;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: text-shadow 0.2s;
+    &.btn-select {
+        background-color: $clr-secondary;
+        color: $clr-prime-2;
+    }
+    &.btn-edit {
+        background-color: $clr-second-2;
+        color: $clr-prime-2;
+    }
+    &.btn-add {
+        background-color: $clr-secondary;
+        color: $clr-second-2;
+        width: 150px;
+        margin-top: 10px;
+    }
+    &:hover {
+        border: 1px solid $clr-prime-2;
+    }
+}
